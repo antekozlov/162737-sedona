@@ -6,7 +6,10 @@ body {
   font-family: "PT Sans", "Arial", sans-serif;
   text-transform: uppercase;
   min-width: 1200px;
+  margin: 0;
+  padding: 0;
   background-color: #eeeeee;
+  overflow-x: hidden;
 }
 
 .container {
@@ -346,11 +349,17 @@ img {
 }
 
 .map {
-  line-height: 0;
   width: 1200px;
   height: 595px;
+  border: 0;
   background: #d9c9bf url("../img/map.jpg") no-repeat;
   position: relative;
+}
+
+.google-map {
+  width: 1200px;
+  height: 595px;
+  border: 0;
 }
 
 /* SEARCH FORM */
@@ -586,7 +595,6 @@ label[for="kids-qty"] {
 .footer-tag {
   width: 180px;
   padding-bottom: 5px;
-  /*padding-left: 5px;*/
   text-align: center;
   font-size: 21px;
   line-height: 26px;
@@ -693,7 +701,7 @@ label[for="kids-qty"] {
 /* FILTER */
 
 .hotels-container {
-  width: 1054px;
+  width: 1056px;
   margin: 0 auto;
 }
 
@@ -922,7 +930,7 @@ label[for="kids-qty"] {
   -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  max-width: 1054px;
+  max-width: 1056px;
   padding-top: 32px;
   padding-bottom: 32px;
   background-color: #ffffff;
